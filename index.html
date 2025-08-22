@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Technical Documentation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav id="navbar">
+    <header>JavaScript Documentation</header>
+    <a class="nav-link" href="#Introduction_to_JavaScript">Introduction to JavaScript</a>
+    <a class="nav-link" href="#Variables_and_Data_Types">Variables and Data Types</a>
+    <a class="nav-link" href="#Functions">Functions</a>
+    <a class="nav-link" href="#DOM_Manipulation">DOM Manipulation</a>
+    <a class="nav-link" href="#Events">Events</a>
+  </nav>
+
+  <!-- Main content -->
+  <main id="main-doc">
+    <!-- Section 1 -->
+    <section class="main-section" id="Introduction_to_JavaScript">
+      <header>Introduction to JavaScript</header>
+      <p>JavaScript is a versatile programming language used primarily in web development.</p>
+      <p>It can run in browsers and on servers (Node.js).</p>
+      <p>JavaScript allows dynamic content, interactive UI, and manipulation of the DOM.</p>
+      <p>It supports functional, object-oriented, and event-driven programming.</p>
+      <p>Example of a simple JavaScript statement:</p>
+      <code>console.log('Hello World');</code>
+    </section>
+
+    <!-- Section 2 -->
+    <section class="main-section" id="Variables_and_Data_Types">
+      <header>Variables and Data Types</header>
+      <p>Variables are used to store data in memory.</p>
+      <p>JavaScript has dynamic typing, meaning variables can hold any data type.</p>
+      <ul>
+        <li>String</li>
+        <li>Number</li>
+        <li>Boolean</li>
+        <li>Object</li>
+        <li>Undefined</li>
+      </ul>
+      <p>Example:</p>
+      <code>let name = "Alice";</code>
+      <code>const PI = 3.1416;</code>
+    </section>
+
+    <!-- Section 3 -->
+    <section class="main-section" id="Functions">
+      <header>Functions</header>
+      <p>Functions are blocks of code designed to perform specific tasks.</p>
+      <p>They can take parameters and return values.</p>
+      <ul>
+        <li>Function Declaration</li>
+        <li>Function Expression</li>
+        <li>Arrow Functions</li>
+      </ul>
+      <p>Example:</p>
+      <code>function greet(name) { return `Hello ${name}`; }</code>
+    </section>
+
+    <!-- Section 4 -->
+    <section class="main-section" id="DOM_Manipulation">
+      <header>DOM Manipulation</header>
+      <p>The Document Object Model (DOM) represents the HTML structure.</p>
+      <p>JavaScript can manipulate elements, attributes, and content.</p>
+      <ul>
+        <li>getElementById()</li>
+        <li>querySelector()</li>
+        <li>createElement()</li>
+      </ul>
+      <p>Example:</p>
+      <code>document.getElementById('main-doc');</code>
+    </section>
+
+    <!-- Section 5 -->
+    <section class="main-section" id="Events">
+      <header>Events</header>
+      <p>Events allow interaction between users and the page.</p>
+      <p>Examples include clicks, mouseovers, and keyboard input.</p>
+      <ul>
+        <li>click</li>
+        <li>mouseover</li>
+        <li>keydown</li>
+      </ul>
+      <p>Example:</p>
+      <code>element.addEventListener('click', () => alert('Clicked!'));</code>
+    </section>
+  </main>
+</body>
+</html>
